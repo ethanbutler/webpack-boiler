@@ -1,6 +1,6 @@
-const fire = (route, funcname, args) => {
+const fire = (routeName, funcname, args) => {
   try {
-    const route = require(`../routes/${route}`)
+    const route = require('../routes/' + routeName)
     route[funcname || 'init']()
   } catch(err) {
     console.log(err)
@@ -22,7 +22,7 @@ const loadEvents = (routes) => {
 
   fire('common', 'finalize', id)
 
-  bodyClasses.forEach(className => {
+  classes.forEach(className => {
     if(routes.includes(className)){
       fire(className, 'finalize', id)
     }
