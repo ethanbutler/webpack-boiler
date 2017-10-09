@@ -1,0 +1,30 @@
+{
+  "name": "webpack-boiler",
+  "version": "1.0.0",
+  "description": "Boilerplate for getting started with webpack.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanbutler/webpack-boiler.git"
+  },
+  "author": "Ethan Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethanbutler/webpack-boiler/issues"
+  },
+  "homepage": "https://github.com/ethanbutler/webpack-boiler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "jquery": "^3.2.1",
+    "query-string": "^5.0.0"
+  }
+}
