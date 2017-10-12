@@ -6,7 +6,7 @@ The purpose of this repository is to provide a sensible WebPack boilerplate for 
 
 To achieve this, this tool stack includes WebPack, Babel, and DOM-based routing based on ES2015 modules. WebPack is configured to output a single bundled file in `./dist` that can then be included in your WordPress theme.
 
-This boilerplate does not include an advanced WebPack features like
+This boilerplate does not include advanced WebPack features like code-splitting or style loading – just module bundling :)
 
 (As a bonus, a module is included to help you get set up with fetching posts from your site's REST API).
 
