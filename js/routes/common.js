@@ -1,3 +1,5 @@
+// Common.js – scripts from this file will be executed on every page.
+
 const init = () => {
   console.log('common init')
 }

@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 
 const config = {
-  context: `${__dirname}/src`,
+  context: `${__dirname}/js`,
   entry: {
     app: './index.js'
   },

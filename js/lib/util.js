@@ -9,8 +9,8 @@ const fire = (routeName, funcname, args) => {
 
 const loadEvents = (routes) => {
   const { body } = document
-  const { id } = body
-  const classes = body.className.split(/\s+/)
+  const { id }   = body
+  const classes  = body.className.split(/\s+/)
 
   fire('common', null, id)
 
